@@ -8,7 +8,7 @@ body {
 
   
   .navigation {
-    box-sizing: border-box;
+    border: none;
     background-color: #3587A4;
     overflow: auto;
     padding: 18px 50px;
@@ -34,7 +34,7 @@ body {
     color: black;
     display: inline-block;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
@@ -47,7 +47,7 @@ body {
   }
   
   th[scope="col"] {
-    background: #88CCF1;
+    background: #48798b;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -79,7 +79,7 @@ body {
   
   
   thead th {
-    background: #88CCF1;
+    background: #48798b;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -120,7 +120,8 @@ body {
     text-align: center;
     width: 33.3333%;
   }
-  h2 {
+
+  p[scope = "Undertittel"] {
     box-sizing: border-box;
     background-color: #3587A4;
     overflow: auto;
@@ -131,13 +132,14 @@ body {
     color: black;
     display: inline-block;
     font-family: 'Oxygen', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
    
     text-transform: uppercase;
-    
   }
   .search {
     background-color: #FFF;
