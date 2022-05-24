@@ -121,7 +121,8 @@ body {
     width: 33.3333%;
   }
 
-  p[scope = "Undertittel"] {
+  p[id = "Undertittel"] {
+      
     box-sizing: border-box;
     background-color: #3587A4;
     overflow: auto;
