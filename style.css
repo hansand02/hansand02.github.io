@@ -65,7 +65,8 @@ body {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background: #042444;
+    
+    border: 0px;
   }
 
   iframe {
@@ -119,7 +120,7 @@ body {
     font-weight: 400;
     padding: 10px 15px;
     text-align: center;
-    width: 33.3333%;
+    border: none;
   }
 
   p[id = "Undertittel"] {
