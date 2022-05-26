@@ -175,6 +175,7 @@ body {
     text-transform: uppercase;
     margin-right: 0px;
     margin-top: 0px;
+    
   }
 
   .undertittel4 {
@@ -194,6 +195,7 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    height: 60px;
   }
 
   p[id = "Footer"] {
