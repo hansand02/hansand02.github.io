@@ -46,8 +46,8 @@ body {
   }
   
   th[scope="col"] {
-    background: #879ab9;
-    color: FFF;
+    background: #042444;
+    color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 100;
@@ -79,7 +79,7 @@ body {
   
   
   thead th {
-    background: #7087ac ;
+    background: #042444 ;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
