@@ -182,7 +182,7 @@ body {
     background-color: #119DA4;
     padding: 35px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: rgb(253, 250, 250);
     display: inline-block;  /* Tror denne gjør slik at man ser farge på toppen når man blar opp på mobil*/
