@@ -8,7 +8,7 @@ body {
 
   .navigation {
     border: none;
-    background-color: #119DA4;
+    background-color: #2a4d84aa;
     overflow: auto;
     padding: 18px 50px;
     position: relative;
@@ -48,7 +48,7 @@ body {
   }
   
   th[scope="col"] {
-    background: #2a4d84aa;
+    background: #119da4a1;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -82,7 +82,7 @@ body {
   
   
   thead th {
-    background: #2a4d84aa ;
+    background: #119da4a1 ;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -144,7 +144,7 @@ body {
   }
 
   p[id = "Undertittel2"] {
-    background-color: #2a4d84aa;
+    background-color: #119da4a1;
     overflow: auto;
     padding: 30px;
     position: relative;
@@ -159,7 +159,6 @@ body {
     border: none;
     text-transform: uppercase;
     text-align: center;
-    margin-right: 0px;
     margin-top: 0px;
   }
 
@@ -181,7 +180,7 @@ body {
   }
 
   .undertittel4 {
-    background-color: #119DA4;
+    background-color: #2a4d84aa;
     padding: 15x;
     width: 100%;
     position: fixed;
