@@ -62,10 +62,11 @@ body {
   table {
     
     /* margin: 20px 10px 10px 0px; */
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
   }
 
   iframe {
@@ -109,7 +110,7 @@ body {
   th {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     width: 33.3333%;
     
