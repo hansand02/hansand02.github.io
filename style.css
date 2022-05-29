@@ -60,14 +60,12 @@ body {
   /* Table */
   
   table {
-    height: 700px;
-    margin: 20px 10px 10px 0px;
+    
+    /* margin: 20px 10px 10px 0px; */
     overflow-y: scroll;
-    max-width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    
-    border: 0px;
   }
 
   iframe {
@@ -121,7 +119,7 @@ body {
     font-family: 'Lato', sans-serif;
     
     font-weight: 400;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-align: center;
     border: none;
     letter-spacing: 1px;
