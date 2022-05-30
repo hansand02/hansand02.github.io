@@ -129,7 +129,6 @@ body {
 
   .Undertittel {
     background-color: #2a4c84;
-    padding: 30px;
     width: 100%;
     color: rgb(253, 250, 250);
     display: inline-block;
@@ -145,7 +144,10 @@ body {
 
   .Undertittel2  {
     background-color: #119da4a1;
-    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     position: relative;
     width: 100%;
     z-index: 0;
