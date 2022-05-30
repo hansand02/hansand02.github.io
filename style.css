@@ -9,7 +9,6 @@ body {
   .navigation {
     border: none;
     background-color: #2a4d84aa;
-    overflow: auto;
     padding: 18px 50px;
     position: relative;
     margin-top: 0px;
@@ -65,7 +64,6 @@ body {
   table {
     
     /* margin: 20px 10px 10px 0px; */
-    overflow-y: auto;
     width: 50%;
     margin-left: min(50px);
     margin-left: auto;
@@ -77,7 +75,6 @@ body {
     
     left: 100;
     margin: 20px auto;
-    overflow-y: scroll;
     position: static;
     width: 500px;
     height: 400px;
@@ -142,13 +139,12 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: x;
     margin-bottom: 80px;
   }
 
   p[id = "Undertittel2"] {
     background-color: #119da4a1;
-    overflow: auto;
     padding: 30px;
     position: relative;
     width: 100%;
@@ -197,7 +193,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: min(0px);
     margin-bottom: 0px;
     border: none;
     
