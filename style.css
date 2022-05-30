@@ -143,7 +143,7 @@ body {
     margin-bottom: 80px;
   }
 
-  p[id = "Undertittel2"] {
+  .Undertittel2  {
     background-color: #119da4a1;
     padding: 30px;
     position: relative;
@@ -159,6 +159,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-top: 0px;
+    margin-right: -300px;
   }
 
   .undertittel3 {
