@@ -1,125 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="format-detection" content="telephone=no">
-  <!-- <meta name="viewport" content="width =device-width"> -->
-  <title>Gutta sin Spaniaplan</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
-  <link href="style.css" type="text/css" rel="stylesheet">
+<title>Tørre å få A</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
 </head>
 <body>
-  <div class = "Undertittel2" style = "background-color: #2a4c84; position: sticky;">
-  <ul>
-    <a href = "DagensQuote.html" ><li>Dagens quote</li></a>
-    <a href = "DagensVideo.html" ><li>Dagens video</li></a>
-    <a href = "DagensMeme.html" ><li>Dagens Meme</li></a>
-  </ul>
-  </div>
-  <br><br><br><br>
 
-  <p  class = "Undertittel2">Shreddernes Spaniaplan</p>
-  <table border = "0px">
-    <thead>
-      <tr>
-        <th scope = "row"><strong>Dag</strong></th>
-        <th scope = "row"><strong>Plan dag</strong></th>
-        <th scope = "row"><strong>Plan kveld</strong></th>
-        <th scope = "row"><strong>Enheter i nebbet</strong></th>
-      </tr>
-      <tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <th scope = "col"> 8. Juni</th>
-        <td>Oppdatert igjen 5
-        </td>
-        <td></td>
-      
-        <td>6</td>
-      </tr>
-      <tr>
-        <th scope = "col">9. Juni</th>
-        <td>
-          <a href = "Dagsplan_8_Juni.html">
-            <li style = "font-size: 14px; color: black;">PLAN (Trykk)</li>
-          </a>
-        </td>
-        <td>
-          <a href = "Alkoholplan_8_Juni.html">
-            <li style = "font-size: 14px; color: black;">PLAN KVELD (trykk)</li>
-          </a>
-        </td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <th scope = "col">10. Juni</th>
-        <td>Her</td>
-        <td></td>
-        <td>20</td>
-      </tr>
-      <tr>
-        <th scope = "col"><p>11. Juni</p></th>
-        <td>må</td>
-        <td></td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <th scope = "col"><p>12. Juni</p></th>
-        <td>vi</td>
-        <td></td>
-        <td>N/A</td>
-      </tr>
-      <tr>
-        <th scope = "col">13. Juni</th>
-        <td>få</td>
-        <td> </td>
-        <td>N/A</td>
-      </tr>
-      <tr>
-          <th scope = "col"><p>14. Juni</p></th>
-          <td>fylt</td>
-          <td></td>
-          <td>N/A</td>
-      </tr>
-      <tr>
-        <th scope = "col">15. Juni</th>
-        <td>inn</td>
-        <td></td>
-        <td>N/A</td>
-      </tr>
-      <tr>
-        <th scope = "col">16. Juni</th>
-        <td>litt</td>
-        <td></td>
-        <td>N/A</td>
-      </tr>
-      <tr>
-        <th scope = "col">17. Juni</th>
-        <td></td>
-        <td></td>
-        <td>N/A.</td>
-      </tr>
-    </tbody>
-  </table>
-  <br><br><br><br><br><br><br><br><br>
-  <div class = "Undertittel" style = "background-color: #2a4c84; display: flex; justify-content: center;" >
-    <div style= "width: device-width; max-width: 900px; display: flex; justify-content: center;">
-      <img src = "hallvard.jpg" width = 32%;>
-      <img src = "hallvard.png" width = 30%;>
-      <img src = "per.png" width = 30%;>
-    </div>
-  </div>  
-  
-  
-
+<div id="editor">
+class Shreddere extends Legender implements Shreddable {
+    String navn1 = "hans", navn2 = "nico", navn3 = "dion";
+    }
+}</div>
+    
+<script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    
+    editor.session.setMode("ace/mode/java");
+</script>
 </body>
-<footer>
-  <div class ="Undertittel" style = "padding: 0;position: fixed; background-color: #2a4d84aa; text-align: center; margin-bottom: 0px; bottom: 0;">
-    <ul>
-    <a href = https://www.facebook.com/mette.andreassen.14 target = "_blank"><li>Hei</li></a>
-    </ul>
-  </div>
-</footer>
-  
 </html>
