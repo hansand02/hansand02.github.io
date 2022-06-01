@@ -140,11 +140,14 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .Undertittel2  {
     background-color: #119da4a1;
-    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
     width: 100%;
     z-index: 0;
